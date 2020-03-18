@@ -1,0 +1,19 @@
+@media all and (max-width: 500px) {
+  .menu_list_exp {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+  .main-form{
+      width:100%;
+  }
+
+  .ml_main_dish img{
+    width:100%;;
+  }
+
+  #page-content-wrapper{
+    margin-left: 0px;
+  }
+
+ 
+}
