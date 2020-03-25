@@ -15,5 +15,39 @@
     margin-left: 0px;
   }
 
+  .main-banner-img img{
+    width: 100%;
+    display:none;
+  }
+
+  .package img{
+    width:100%;
+  }
+
+  .guide-wrap{
+    padding: 20px 20px 15px;
+  }
+
+  .country-map{
+    background-size:contain;
+    margin-top:10px;
+  }
+
+  .section-pad {
+    padding: 25px;
+}
+
+.product_list{
+  padding:20px 0px;
+}
+
+.product-item{
+  display:none;
+}
+
+.product-wrap{
+  display: block;
+}
+
  
 }
