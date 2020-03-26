@@ -482,23 +482,40 @@ line-height: 1;
 
 .guide-wrap {
 border-radius:4px;
-padding:20px 50px 15px;
+padding:80px 50px 50px;
 position:relative;
 box-shadow:0px 0px 15px rgba(28, 180, 72, 0.55);
 }
 
 .guide-list p {
-    font-size:14px;
+    font-size:13px;
     font-weight:400;
     line-height:1.5;
     margin-bottom:15px;
-    color:#fff;
+    /* color:#fff; */
 }
 
 .guide-wrap svg{
     position:absolute;
-    top:20px;
-    right:0;
+    top:40px;
+    left:0;
+}
+
+.guide-bg-white{
+    background:#fff;
+    
+}
+
+
+.guide-bg-light-green{
+    background:#C8F0D3;
+}
+
+
+.guide-step{
+    padding:20px 15px;
+    border-radius: 4px;
+    color:#000;
 }
 
 .location-container{
