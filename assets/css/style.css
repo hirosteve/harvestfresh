@@ -409,6 +409,11 @@ line-height: 1;
     background:#1CB448;
 }
 
+.bg-light-green{
+    background:#C8F0D3;
+}
+
+
 .product-name{
     padding: 35px 0px 0px;
     font-size: 14px;
@@ -484,8 +489,25 @@ line-height: 1;
 border-radius:4px;
 padding:80px 50px 50px;
 position:relative;
-box-shadow:0px 0px 15px rgba(28, 180, 72, 0.55);
+box-shadow:0px 0px 30px rgba(28, 180, 72, 0.18);
+-webkit-transition: background-color .4s linear, color .4s linear;
+-moz-transition: background-color .4s linear, color .4s linear;
+-o-transition: background-color .4s linear, color .4s linear;
+-ms-transition: background-color .4s linear, color .4s linear;
+transition: background-color .4s linear, color .4s linear;
 }
+
+.guide-wrap:hover {
+    border-radius:4px;
+    padding:80px 50px 50px;
+    position:relative;
+    box-shadow:0px 0px 15px rgba(28, 180, 72, 0.18);
+    -webkit-transition: background-color .4s linear, color .4s linear;
+-moz-transition: background-color .4s linear, color .4s linear;
+-o-transition: background-color .4s linear, color .4s linear;
+-ms-transition: background-color .4s linear, color .4s linear;
+transition: background-color .4s linear, color .4s linear;
+    }
 
 .guide-list p {
     font-size:13px;
@@ -493,6 +515,10 @@ box-shadow:0px 0px 15px rgba(28, 180, 72, 0.55);
     line-height:1.5;
     margin-bottom:15px;
     /* color:#fff; */
+}
+
+.guide-list .bg-green{
+    color:#fff;
 }
 
 .guide-wrap svg{
